@@ -41,7 +41,7 @@ report = 'Incorrect: ' + str(len(incorrect)) +\
 
 print report
 
-log = open('/Users/kelbycannick/Desktop/kelbylog1.txt', 'w+')
+log = open('./log/results.txt', 'w+')
 
 log.write(report)
 log.write('\nMissed Problems\n---------------------\n')
